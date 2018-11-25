@@ -171,6 +171,6 @@ function run(db) {
 
     var server = app.listen(config.get('port'), config.get('host'), (err) => {
         if (err) throw err;
-        console.log(`server listening on ${server.address().port}`);
+        console.log(`server listening on ${process.env.PORT || 3000}`);
     });
 }

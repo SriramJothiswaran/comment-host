@@ -7,6 +7,7 @@ const os = require('os');
 const vapidKeys = webpush.generateVAPIDKeys();
 
 nconf.argv()
+    .file({ file: './config.json' })
     .env()
     .defaults({
         admins: [1],
