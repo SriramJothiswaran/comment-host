@@ -59,7 +59,7 @@ function run(db) {
             args.length = 1;
         }
 
-        const date_format = config.get('date_format');        
+        const date_format = config.get('date_format');
         db.all(query, args, (err, comments) => {
             if (error(err, request, reply)) return;
             comments.forEach((c) => {
@@ -170,6 +170,6 @@ function run(db) {
 
     var server = app.listen(config.get('port'), config.get('host'), (err) => {
         if (err) throw err;
-        console.log(`server listening on ${server.address().port}`);
+        console.log(`server listening on ${process.env.PORT || server.address().port}`);
     });
 }
