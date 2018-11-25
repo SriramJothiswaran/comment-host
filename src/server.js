@@ -169,7 +169,7 @@ function run(db) {
         db.run('INSERT OR IGNORE INTO user (id,name,blocked,trusted,created_at) VALUES (1,"dev",0,1,datetime())');
     }
 
-    var server = app.listen(config.get('port'), config.get('host'), (err) => {
+    var server = app.listen(process.env.PORT, config.get('host'), (err) => {
         if (err) throw err;
         console.log(`server listening on ${server.address().port}`);
     });
