@@ -1,0 +1,68 @@
+{
+  "name": "schnack",
+  "version": "0.1.4",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "connect-sqlite3": "^0.9.11",
+    "cors": "^2.8.4",
+    "express": "^4.16.1",
+    "express-session": "^1.15.6",
+    "lodash.countby": "^4.6.0",
+    "marked": "^0.3.9",
+    "moment": "^2.18.1",
+    "nconf": "^0.10.0",
+    "passport": "^0.4.0",
+    "passport-facebook": "^2.1.1",
+    "passport-github2": "^0.1.11",
+    "passport-google-oauth": "^1.0.0",
+    "passport-twitter": "^1.0.4",
+    "pushover-notifications": "^0.2.4",
+    "request": "^2.83.0",
+    "rss": "^1.2.2",
+    "sqlite": "^3.0.0",
+    "sqlite3": "^4.0.2",
+    "unfetch": "^3.0.0",
+    "web-push": "^3.2.3"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "build": "rollup -cw",
+    "test-server": "http-server test -o 'http://localhost:8080/' -P 'http://localhost:3000/'",
+    "server": "NODE_ENV=development nodemon index.js",
+    "import": "node src/importer.js",
+    "dev": "test/run"
+  },
+  "description": "a simple node app for disqus-like drop-in commenting on static websites",
+  "main": "index.js",
+  "repository": "git@github.com:gka/schnack.git",
+  "author": "Gregor Aisch",
+  "license": "LIL",
+  "contributors": [
+    {
+      "name": "Gregor Aisch",
+      "web": "https://driven-by-data.net"
+    },
+    {
+      "name": "Moritz Klack",
+      "web": "https://moritzklack.com"
+    },
+    {
+      "name": "g-div",
+      "web": "https://github.com/g-div"
+    }
+  ],
+  "devDependencies": {
+    "http-server": "^0.10.0",
+    "nodemon": "^1.12.1",
+    "rollup": "^0.55.4",
+    "rollup-plugin-buble": "^0.16.0",
+    "rollup-plugin-commonjs": "^8.3.0",
+    "rollup-plugin-jst": "^1.0.1",
+    "rollup-plugin-node-resolve": "^3.0.2",
+    "rollup-plugin-string": "^2.0.2",
+    "rollup-plugin-template": "^1.0.10",
+    "rollup-plugin-uglify": "^2.0.1",
+    "to-markdown": "^3.1.0",
+    "xml2js": "^0.4.19"
+  }
+}
