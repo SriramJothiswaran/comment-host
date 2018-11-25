@@ -120,8 +120,8 @@ function run(db) {
     });
 
     app.get('/', (request, reply) => {
-      console.log('tested ');
-        reply.send({test: 'ok' });
+      reply.writeHead(302, {'Location': 'https://kalvettu.in' + '/'});
+      reply.end;
     });
 
     // rss feed of comments in need of moderation
