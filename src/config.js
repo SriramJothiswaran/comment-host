@@ -11,12 +11,12 @@ nconf.argv()
     .env()
     .defaults({
         admins: [1],
-        schnack_host: `http://localhost`,
+        schnack_host: `https://comments-kalvettu.herokuapp.com/`,
         database: {
             comments: 'comments.db',
             sessions: 'sessions.db'
         },
-        port: 3000,
+        port: process.env.PORT || 3000,
         date_format: 'MMMM DD, YYYY - h:mm a',
         notification_interval: 300000,
         oauth: {
