@@ -6,11 +6,7 @@ const os = require('os');
 // VAPID keys should only be generated only once.
 const vapidKeys = webpush.generateVAPIDKeys();
 
-
-var processPort = process.env.PORT || 3000;
-
 nconf.argv()
-    .file({ file: './config.json' })
     .env()
     .defaults({
         admins: [1],
@@ -19,7 +15,7 @@ nconf.argv()
             comments: 'comments.db',
             sessions: 'sessions.db'
         },
-        port: processPort,
+        port: process.env.PORT,
         date_format: 'MMMM DD, YYYY - h:mm a',
         notification_interval: 300000,
         oauth: {
