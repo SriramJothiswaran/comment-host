@@ -11,7 +11,7 @@ nconf.argv()
     .env()
     .defaults({
         admins: [1],
-        schnack_host: `https://comments-kalvettu.herokuapp.com/`,
+        schnack_host: `http://localhost`,
         database: {
             comments: 'comments.db',
             sessions: 'sessions.db'

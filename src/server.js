@@ -120,6 +120,7 @@ function run(db) {
     });
 
     app.get('/', (request, reply) => {
+      console.log('tested od hello');
         reply.send({test: 'ok' });
     });
 
