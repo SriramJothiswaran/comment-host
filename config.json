@@ -1,6 +1,6 @@
 {
-    "schnack_host": "https://schnack.example.com",
-    "page_url": "https://blog.example.com/posts/%SLUG%",
+    "schnack_host": "http://www.sriramj.ooo/",
+    "page_url": "http://www.sriramj.ooo/",
     "database": {
         "comments": "comments.db",
         "sessions": "sessions.db"
@@ -8,14 +8,14 @@
     "port": 3000,
     "admins": [1],
     "oauth": {
-        "secret": "xxxxx",
+        "secret": "kalvettu",
         "twitter": {
             "consumer_key": "xxxxx",
             "consumer_secret": "xxxxx"
         },
         "github": {
-            "client_id": "xxxxx",
-            "client_secret": "xxxxx"
+            "client_id": "9dca578e2cc23d7f953c",
+            "client_secret": "a312b0f30dcc94adc16a924e9d47bc7bff056f81"
         },
         "google": {
             "client_id": "xxxxx",
@@ -32,8 +32,8 @@
             "user_key": "xxxxx"
         },
         "webpush": {
-            "vapid_public_key": "xxxxx",
-            "vapid_private_key": "xxxxx"
+            "vapid_public_key": "BI6nc36hFztWhk9JEJvDMDj5dmor93tcXWkGx5E_QLjuzuMsO5lYYFdnLudaFwppTFzVP-UStGI38q0FQsT_tqI",
+            "vapid_private_key": "woYMNfZa25YLSw1pcu5v_w1AZxkxNSC-T6RDY1lSw5k"
         },
         "slack": {
             "webhook_url": "xxxxx"
