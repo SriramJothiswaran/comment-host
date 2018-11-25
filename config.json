@@ -5,7 +5,7 @@
         "comments": "comments.db",
         "sessions": "sessions.db"
     },
-    "port": 3000,
+    "port": "process.env.PORT",
     "admins": [1],
     "oauth": {
         "secret": "kalvettu",

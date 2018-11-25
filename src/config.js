@@ -16,7 +16,7 @@ nconf.argv()
             comments: 'comments.db',
             sessions: 'sessions.db'
         },
-        port: process.env.PORT,
+        port: 3000,
         date_format: 'MMMM DD, YYYY - h:mm a',
         notification_interval: 300000,
         oauth: {
