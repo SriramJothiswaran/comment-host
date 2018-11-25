@@ -1,5 +1,5 @@
 {
-    "schnack_host": "https://comments-kalvettu.herokuapp.com/",
+    "schnack_host": "http://comments.sriramj.ooo/",
     "page_url": "http://www.sriramj.ooo/",
     "database": {
         "comments": "comments.db",
