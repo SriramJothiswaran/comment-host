@@ -1,6 +1,6 @@
 {
-    "schnack_host": "http://comments.sriramj.ooo/",
-    "page_url": "http://www.sriramj.ooo/",
+    "schnack_host": "http://comments.sriramj.ooo",
+    "page_url": "http://www.sriramj.ooo",
     "database": {
         "comments": "comments.db",
         "sessions": "sessions.db"
