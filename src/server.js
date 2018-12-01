@@ -120,7 +120,7 @@ function run(db) {
     });
 
     app.get('/', (request, reply) => {
-      res.redirect('https://kalvettu.in')
+      reply.redirect('https://kalvettu.in')
       reply.end;
     });
 
