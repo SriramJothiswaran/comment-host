@@ -1,6 +1,6 @@
 {
-    "schnack_host": "http://comments.sriramj.ooo",
-    "page_url": "http://www.sriramj.ooo",
+    "schnack_host": "http://karuthu.kalvettu.in",
+    "page_url": "http://www.kalvettu.in",
     "database": {
         "comments": "comments.db",
         "sessions": "sessions.db"
@@ -14,12 +14,12 @@
             "consumer_secret": "xxxxx"
         },
         "github": {
-            "client_id": "796c2d6782c02db0bc48",
-            "client_secret": "cd6ec8efcde5116fec2649ce413ab25bee7d0b8f"
-        },
-        "google": {
             "client_id": "xxxxx",
             "client_secret": "xxxxx"
+        },
+        "google": {
+            "client_id": "485404295551-gfgpe35qkpu94482uurihapbu43rbadh.apps.googleusercontent.com",
+            "client_secret": "ny8Wfm25aU8yoSXIsT_pFtAp"
         },
         "facebook": {
             "client_id": "xxxxx",
